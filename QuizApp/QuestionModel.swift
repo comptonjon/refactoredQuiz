@@ -12,6 +12,7 @@ struct QuestionModel {
     var questions:[Question] = []
     
     init (){
+        //fill array upon construction
         loadArray()
     }
 
@@ -32,6 +33,7 @@ struct QuestionModel {
     
 
     func getQuestionArray()->[Question]{
+        //return array of questions
         return questions
     }
 }
